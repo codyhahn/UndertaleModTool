@@ -25,7 +25,7 @@
           ];
 
           buildPhase = ''
-            dotnet publish -c Release -o $out/bin --self-contained false --no-restore
+            dotnet publish -c Release -o $out/bin --self-contained false --no-restore UndertaleModLib
           '';
         };
 
