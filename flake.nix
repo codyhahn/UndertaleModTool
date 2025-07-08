@@ -25,7 +25,7 @@
           ];
 
           buildPhase = ''
-            dotnet publish -c Release -o $out/bin --self-contained false --no-restore # Adjust if needed
+            dotnet publish -c Release -o $out/bin --self-contained false --no-restore
           '';
         };
 
